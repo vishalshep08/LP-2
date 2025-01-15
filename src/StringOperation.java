@@ -8,7 +8,7 @@ public class StringOperation{
         System.out.println("The string is:"+str);
         for( int i = 0; i < str.length(); i++){
             char c = str.charAt(i);
-            // For displaying the ASCII code
+            //For displaying the ASCII code
             //int ascii = (int) c;
             //System.out.println("The ASCII value of the '"+c+"' is:"+ascii);
             //Bitwise AND
