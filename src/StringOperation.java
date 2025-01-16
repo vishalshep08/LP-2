@@ -9,11 +9,12 @@ public class StringOperation{
         for( int i = 0; i < str.length(); i++){
             char c = str.charAt(i);
             //For displaying the ASCII code
-            //int ascii = (int) c;
+            int ascii = (int) c;
             //System.out.println("The ASCII value of the '"+c+"' is:"+ascii);
             //Bitwise AND
             int and = 127 & c;
             System.out.println("The AND of the character '"+c+"' is:"+ and);
+            
             //Bitwise OR
             int or = 127 ^ c;
             System.out.println("The XOR of the character '"+c+"' is:"+ or);
