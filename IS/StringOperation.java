@@ -14,7 +14,7 @@ public class StringOperation{
             //Bitwise AND
             int and = 127 & c;
             System.out.println("The AND of the character '"+c+"' is:"+ and);
-            
+
             //Bitwise OR
             int or = 127 ^ c;
             System.out.println("The XOR of the character '"+c+"' is:"+ or);
